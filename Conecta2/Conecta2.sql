@@ -1,0 +1,3 @@
+create table IF NOT EXISTS AccessPoints(id int not null AUTO_INCREMENT,latitud double, longitud double, nombre varchar(255), ranking int, categoria varchar(255), votos int, primary key(id));
+create table IF NOT EXISTS users(id int not null AUTO_INCREMENT,user varchar(255), pass varchar(255), type varchar(255), primary key(id));
+INSERT INTO users( user, pass, type ) VALUES ('admin',  'admin',  'admin');

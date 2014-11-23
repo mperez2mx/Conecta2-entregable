@@ -1,0 +1,399 @@
+
+html, body {
+height: 100%;
+
+font-size: 11px;
+
+}
+
+#docs {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#wrap {
+
+min-height: 100%;
+background-image: url(imagenes/fondo.png);
+background-repeat:no-repeat;
+background-size:100% 100%;
+font-size: 11px;
+
+}
+#wrapLogIn {
+
+min-height: 90%;
+background-image: url(imagenes/fondo.png);
+background-repeat:no-repeat;
+background-size:100% 100%;
+font-size: 11px;
+
+}
+
+#main {
+	padding-top: 30pt;
+	padding-right: 30pt;
+	padding-left: 30pt;
+	padding-bottom: -50px;
+	font-size: 11px;
+}/* Altura en px del footer */
+#footer {
+position: relative;
+margin-top: -60px; /* altura en px del footer con valor negativo */
+padding-right:30pt;
+padding-left:30pt;
+height: 20px; /* Altura del Footer en px*/
+clear: both;
+
+}
+
+body{
+	margin-left: 70pt;
+	margin-right: 70pt;
+	margin-top:30pt;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	background-repeat:no-repeat;
+	background-color: #252525;
+	background-size:cover;
+	text-align: center;
+	font-size: 11px;
+}
+
+div.login{
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	
+}
+
+div.header{
+	/*background-color:white; */
+	
+	font-family: Arial, Helvetica, sans-serif;
+	/*background-image: url(imagenes/logo.png);*/
+	background-repeat:no-repeat;
+	background-position:left;
+	text-align:right;
+	font-size:9pt;
+	/*background-color:white;*/
+	
+}
+
+div.home{
+	/*background-color:white; */
+	/*background-image: url(imagenes/home.jpg);*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	background-repeat:no-repeat;
+	background-position:right;
+	text-align:right;
+	/*background-color:white;*/
+	height:25pt;
+	
+}
+
+div.banner{
+	/*background-color:white; */
+	/*background-image: url(imagenes/banner.jpg);*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	background-repeat:no-repeat;
+	text-align:right;
+	margin-top:80pt;
+	margin-bottom:40pt;
+	
+	background-size:100%;
+	color: white;
+}
+
+div.bannerImport{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(imagenes/bannerImportar.jpg);
+	background-repeat:no-repeat;
+	text-align:right;
+	/*background-color:white;*/
+	padding-top:91pt;
+	font-size:11pt;
+	background-size:100%;
+	color: white;
+}
+
+div.bannerExport{
+	/*background-color:white; */
+	background-image: url(imagenes/bannerExportar.jpg);
+	background-repeat:no-repeat;
+	text-align:right;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top:91pt;
+	font-size:11pt;
+	background-size:100%;
+	color: white;
+}
+
+div.contenido{
+	font-family: Arial, Helvetica, sans-serif;
+	background-size:100%;
+	font-size: 11px;
+	
+}
+
+div.informacion
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background-size:100% 100%;
+	background-image: url(imagenes/fondoTabla.png);
+	margin-bottom:10pt;
+	margin-left:10pt;
+}
+
+div.searchC{
+	/*background-color:white; */ 
+	margin-top:auto;
+	margin-bottom:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+}
+
+div.tabla{
+	/*background-color:white;*/ font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	align:center;
+	padding-left:100pt;
+	padding-right:100pt;
+	margin-top:10pt;
+	padding-bottom:00pt;
+}
+
+.btnf {
+  text-align:center;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+}
+.btnf:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.btn {
+  text-align:center;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.NL
+{
+	/*border-bottom:0px;*/
+	border: none;
+	
+/*text-align: right;*/
+	
+}
+
+table.Extras{
+	margin-left:10pt;
+	align:center;
+	
+}
+
+table.TituloExtras{
+	
+	background-image: url(imagenes/title.png);
+}
+
+
+table.empleados{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	text-align:left;
+	width:100%;
+	height: 18pt;
+	background-image: url(imagenes/fondoHeader.png);
+	background-repeat: repeat-x;
+	
+	background-color:#f7f9fb;
+}
+table.peque{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	text-align:left;
+	width:50%;
+	height: 30pt;
+	background-image: url(imagenes/fondoHeader.png);
+	background-repeat: repeat-x;
+	background-color:#f7f9fb;
+}
+
+td{
+	height:22px;
+	vertical-align:middle;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	border-bottom: solid 1pt #e2eef0;
+}
+
+.bck
+{
+	background-image: url(imagenes/title.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	
+	
+}
+
+tr.header{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	color:white;
+}
+
+div.foot{
+	/*background-color:white; 
+	background-image: url(imagenes/logoTec.jpg);*/
+	
+	text-align:right;
+	
+	font-size: 10px;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.formLogin{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	padding-top: 20pt;
+	padding-bottom:40pt;
+	
+}
+
+
+form.LogIn{
+	
+	background-repeat: no-repeat;
+	background-position: center;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	padding-top: 50pt;
+	padding-bottom: 50pt;
+	
+}
+
+form.SearchC{
+	
+	background-repeat: no-repeat;
+	background-position: center;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	
+	
+}
+
+form.SearchC input[type=submit]{
+	background-image : url(imagenes/search1.png);
+	background-repeat: no-repeat;
+	
+	width: 23pt;
+	height:23pt;	
+	border : none;
+	background-image : url(imagenes/search.png);
+}
+
+form.SearchC input[type=submit]:hover{
+	background-image : url(imagenes/search.png);
+	background-repeat: no-repeat;
+	
+	width: 23pt;
+	height:23pt;	
+	border : none;
+	
+}
+
+form.Agregar input[type=submit]{
+	background-image : url(imagenes/botonAgregar1.png);
+	background-repeat: no-repeat;
+	
+	width: 50pt;
+	height:25pt;	
+	border : none;
+	
+}
+
+form.Agregar input[type=submit]:hover{
+	background-image : url(imagenes/botonAgregar2.png);
+	background-repeat: no-repeat;
+	
+	width: 50pt;
+	height:25pt;	
+	border : none;
+	
+}
+
+form.LogIn input{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	
+}
+form.LogIn input[type=submit] {
+	background-image : url(imagenes/nextArrow.png);
+	background-repeat: no-repeat;
+	width: 20pt;
+	height:20pt;	
+	border : none;
+}
+
+form.LogIn input[type=submit]:hover {
+	background-image : url(imagenes/nextArrow2.png);
+	background-repeat: no-repeat;
+	width: 20pt;
+	height:20pt;	
+	border : none;
+}
